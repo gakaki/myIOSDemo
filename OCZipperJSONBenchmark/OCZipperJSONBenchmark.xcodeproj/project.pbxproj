@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0670395F23BF4C84006BF60E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0670395E23BF4C84006BF60E /* AppDelegate.m */; };
+		0670396223BF4C84006BF60E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0670396123BF4C84006BF60E /* SceneDelegate.m */; };
+		0670396523BF4C84006BF60E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0670396423BF4C84006BF60E /* ViewController.m */; };
+		0670396823BF4C84006BF60E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0670396623BF4C84006BF60E /* Main.storyboard */; };
+		0670396A23BF4C85006BF60E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0670396923BF4C85006BF60E /* Assets.xcassets */; };
+		0670396D23BF4C85006BF60E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0670396B23BF4C85006BF60E /* LaunchScreen.storyboard */; };
+		0670397023BF4C85006BF60E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0670396F23BF4C85006BF60E /* main.m */; };
+		0670397A23BF4C85006BF60E /* OCZipperJSONBenchmarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0670397923BF4C85006BF60E /* OCZipperJSONBenchmarkTests.m */; };
+		0670398723BF4E8D006BF60E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670398623BF4E8D006BF60E /* File.swift */; };
+		0670398823BF4E8D006BF60E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0670398623BF4E8D006BF60E /* File.swift */; };
+		137F7A9FEFA82EF8BA30BD16 /* libPods-OCZipperJSONBenchmark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BFDA84E64E88CE13D916E0 /* libPods-OCZipperJSONBenchmark.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0670397623BF4C85006BF60E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0670395223BF4C84006BF60E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0670395923BF4C84006BF60E;
+			remoteInfo = OCZipperJSONBenchmark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0670395A23BF4C84006BF60E /* OCZipperJSONBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCZipperJSONBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0670395D23BF4C84006BF60E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0670395E23BF4C84006BF60E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0670396023BF4C84006BF60E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0670396123BF4C84006BF60E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0670396323BF4C84006BF60E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0670396423BF4C84006BF60E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0670396723BF4C84006BF60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0670396923BF4C85006BF60E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0670396C23BF4C85006BF60E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0670396E23BF4C85006BF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0670396F23BF4C85006BF60E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0670397523BF4C85006BF60E /* OCZipperJSONBenchmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCZipperJSONBenchmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0670397923BF4C85006BF60E /* OCZipperJSONBenchmarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCZipperJSONBenchmarkTests.m; sourceTree = "<group>"; };
+		0670397B23BF4C85006BF60E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0670398423BF4E8D006BF60E /* OCZipperJSONBenchmark-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCZipperJSONBenchmark-Bridging-Header.h"; sourceTree = "<group>"; };
+		0670398523BF4E8D006BF60E /* OCZipperJSONBenchmarkTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCZipperJSONBenchmarkTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0670398623BF4E8D006BF60E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		52BFDA84E64E88CE13D916E0 /* libPods-OCZipperJSONBenchmark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCZipperJSONBenchmark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50670785F899D967B27E936 /* Pods-OCZipperJSONBenchmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCZipperJSONBenchmark.release.xcconfig"; path = "Target Support Files/Pods-OCZipperJSONBenchmark/Pods-OCZipperJSONBenchmark.release.xcconfig"; sourceTree = "<group>"; };
+		CDD7C731A09A40983FE4F202 /* Pods-OCZipperJSONBenchmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCZipperJSONBenchmark.debug.xcconfig"; path = "Target Support Files/Pods-OCZipperJSONBenchmark/Pods-OCZipperJSONBenchmark.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0670395723BF4C84006BF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137F7A9FEFA82EF8BA30BD16 /* libPods-OCZipperJSONBenchmark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0670397223BF4C85006BF60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0670395123BF4C84006BF60E = {
+			isa = PBXGroup;
+			children = (
+				0670395C23BF4C84006BF60E /* OCZipperJSONBenchmark */,
+				0670397823BF4C85006BF60E /* OCZipperJSONBenchmarkTests */,
+				0670395B23BF4C84006BF60E /* Products */,
+				44464D03715B50C2FE9A7386 /* Pods */,
+				B1E655E6CA478934EA5466AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0670395B23BF4C84006BF60E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0670395A23BF4C84006BF60E /* OCZipperJSONBenchmark.app */,
+				0670397523BF4C85006BF60E /* OCZipperJSONBenchmarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0670395C23BF4C84006BF60E /* OCZipperJSONBenchmark */ = {
+			isa = PBXGroup;
+			children = (
+				0670395D23BF4C84006BF60E /* AppDelegate.h */,
+				0670395E23BF4C84006BF60E /* AppDelegate.m */,
+				0670396023BF4C84006BF60E /* SceneDelegate.h */,
+				0670396123BF4C84006BF60E /* SceneDelegate.m */,
+				0670396323BF4C84006BF60E /* ViewController.h */,
+				0670396423BF4C84006BF60E /* ViewController.m */,
+				0670396623BF4C84006BF60E /* Main.storyboard */,
+				0670396923BF4C85006BF60E /* Assets.xcassets */,
+				0670396B23BF4C85006BF60E /* LaunchScreen.storyboard */,
+				0670396E23BF4C85006BF60E /* Info.plist */,
+				0670396F23BF4C85006BF60E /* main.m */,
+				0670398623BF4E8D006BF60E /* File.swift */,
+				0670398423BF4E8D006BF60E /* OCZipperJSONBenchmark-Bridging-Header.h */,
+				0670398523BF4E8D006BF60E /* OCZipperJSONBenchmarkTests-Bridging-Header.h */,
+			);
+			path = OCZipperJSONBenchmark;
+			sourceTree = "<group>";
+		};
+		0670397823BF4C85006BF60E /* OCZipperJSONBenchmarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0670397923BF4C85006BF60E /* OCZipperJSONBenchmarkTests.m */,
+				0670397B23BF4C85006BF60E /* Info.plist */,
+			);
+			path = OCZipperJSONBenchmarkTests;
+			sourceTree = "<group>";
+		};
+		44464D03715B50C2FE9A7386 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDD7C731A09A40983FE4F202 /* Pods-OCZipperJSONBenchmark.debug.xcconfig */,
+				B50670785F899D967B27E936 /* Pods-OCZipperJSONBenchmark.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1E655E6CA478934EA5466AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BFDA84E64E88CE13D916E0 /* libPods-OCZipperJSONBenchmark.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0670395923BF4C84006BF60E /* OCZipperJSONBenchmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0670397E23BF4C85006BF60E /* Build configuration list for PBXNativeTarget "OCZipperJSONBenchmark" */;
+			buildPhases = (
+				02B4B57E0DFE12F4153153DD /* [CP] Check Pods Manifest.lock */,
+				0670395623BF4C84006BF60E /* Sources */,
+				0670395723BF4C84006BF60E /* Frameworks */,
+				0670395823BF4C84006BF60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCZipperJSONBenchmark;
+			productName = OCZipperJSONBenchmark;
+			productReference = 0670395A23BF4C84006BF60E /* OCZipperJSONBenchmark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0670397423BF4C85006BF60E /* OCZipperJSONBenchmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0670398123BF4C85006BF60E /* Build configuration list for PBXNativeTarget "OCZipperJSONBenchmarkTests" */;
+			buildPhases = (
+				0670397123BF4C85006BF60E /* Sources */,
+				0670397223BF4C85006BF60E /* Frameworks */,
+				0670397323BF4C85006BF60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0670397723BF4C85006BF60E /* PBXTargetDependency */,
+			);
+			name = OCZipperJSONBenchmarkTests;
+			productName = OCZipperJSONBenchmarkTests;
+			productReference = 0670397523BF4C85006BF60E /* OCZipperJSONBenchmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0670395223BF4C84006BF60E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = g;
+				TargetAttributes = {
+					0670395923BF4C84006BF60E = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					0670397423BF4C85006BF60E = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+						TestTargetID = 0670395923BF4C84006BF60E;
+					};
+				};
+			};
+			buildConfigurationList = 0670395523BF4C84006BF60E /* Build configuration list for PBXProject "OCZipperJSONBenchmark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0670395123BF4C84006BF60E;
+			productRefGroup = 0670395B23BF4C84006BF60E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0670395923BF4C84006BF60E /* OCZipperJSONBenchmark */,
+				0670397423BF4C85006BF60E /* OCZipperJSONBenchmarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0670395823BF4C84006BF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0670396D23BF4C85006BF60E /* LaunchScreen.storyboard in Resources */,
+				0670396A23BF4C85006BF60E /* Assets.xcassets in Resources */,
+				0670396823BF4C84006BF60E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0670397323BF4C85006BF60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02B4B57E0DFE12F4153153DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCZipperJSONBenchmark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0670395623BF4C84006BF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0670398723BF4E8D006BF60E /* File.swift in Sources */,
+				0670396523BF4C84006BF60E /* ViewController.m in Sources */,
+				0670395F23BF4C84006BF60E /* AppDelegate.m in Sources */,
+				0670397023BF4C85006BF60E /* main.m in Sources */,
+				0670396223BF4C84006BF60E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0670397123BF4C85006BF60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0670397A23BF4C85006BF60E /* OCZipperJSONBenchmarkTests.m in Sources */,
+				0670398823BF4E8D006BF60E /* File.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0670397723BF4C85006BF60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0670395923BF4C84006BF60E /* OCZipperJSONBenchmark */;
+			targetProxy = 0670397623BF4C85006BF60E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0670396623BF4C84006BF60E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0670396723BF4C84006BF60E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0670396B23BF4C85006BF60E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0670396C23BF4C85006BF60E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0670397C23BF4C85006BF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0670397D23BF4C85006BF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0670397F23BF4C85006BF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDD7C731A09A40983FE4F202 /* Pods-OCZipperJSONBenchmark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCZipperJSONBenchmark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JJLISO8601DateFormatter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZippyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZippyJSONCFamily\"",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.gakaki.OCZipperJSONBenchmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCZipperJSONBenchmark/OCZipperJSONBenchmark-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0670398023BF4C85006BF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50670785F899D967B27E936 /* Pods-OCZipperJSONBenchmark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCZipperJSONBenchmark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/JJLISO8601DateFormatter\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZippyJSON\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ZippyJSONCFamily\"",
+					"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.gakaki.OCZipperJSONBenchmark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCZipperJSONBenchmark/OCZipperJSONBenchmark-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0670398223BF4C85006BF60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCZipperJSONBenchmarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.gakaki.OCZipperJSONBenchmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCZipperJSONBenchmark/OCZipperJSONBenchmarkTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCZipperJSONBenchmark.app/OCZipperJSONBenchmark";
+			};
+			name = Debug;
+		};
+		0670398323BF4C85006BF60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OCZipperJSONBenchmarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.gakaki.OCZipperJSONBenchmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OCZipperJSONBenchmark/OCZipperJSONBenchmarkTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCZipperJSONBenchmark.app/OCZipperJSONBenchmark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0670395523BF4C84006BF60E /* Build configuration list for PBXProject "OCZipperJSONBenchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0670397C23BF4C85006BF60E /* Debug */,
+				0670397D23BF4C85006BF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0670397E23BF4C85006BF60E /* Build configuration list for PBXNativeTarget "OCZipperJSONBenchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0670397F23BF4C85006BF60E /* Debug */,
+				0670398023BF4C85006BF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0670398123BF4C85006BF60E /* Build configuration list for PBXNativeTarget "OCZipperJSONBenchmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0670398223BF4C85006BF60E /* Debug */,
+				0670398323BF4C85006BF60E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0670395223BF4C84006BF60E /* Project object */;
+}

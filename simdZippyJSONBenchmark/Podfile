@@ -1,0 +1,6 @@
+use_modular_headers!
+
+target 'simdZippyJSONBenchmark' do
+    pod 'ZippyJSON'
+
+end

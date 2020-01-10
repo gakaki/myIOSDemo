@@ -1,0 +1,6 @@
+module Pods_OCZipperJSONBenchmark {
+  umbrella header "Pods-OCZipperJSONBenchmark-umbrella.h"
+
+  export *
+  module * { export * }
+}

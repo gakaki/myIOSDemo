@@ -1,0 +1,6 @@
+use_modular_headers!
+
+target 'OCZipperJSONBenchmark' do
+    pod 'ZippyJSON'
+
+end

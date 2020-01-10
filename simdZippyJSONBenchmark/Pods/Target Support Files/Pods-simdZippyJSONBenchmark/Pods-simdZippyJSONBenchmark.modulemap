@@ -1,0 +1,6 @@
+module Pods_simdZippyJSONBenchmark {
+  umbrella header "Pods-simdZippyJSONBenchmark-umbrella.h"
+
+  export *
+  module * { export * }
+}

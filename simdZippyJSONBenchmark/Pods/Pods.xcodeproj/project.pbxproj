@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D895BC26AADE971367D383E2EDDDEF /* JJLInternal.c in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1213A59443414FF16B0EBE95F5A67 /* JJLInternal.c */; };
+		140DAE82672F0A5A684FDEA92CC9DE07 /* ZippyJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D025FF0A212FB0E201DB72C7AA191C8 /* ZippyJSONDecoder.swift */; };
+		29D6775143DACBE37C8DDBA803100187 /* Pods-simdZippyJSONBenchmark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC68700955A5B6188FCF02348D9DE821 /* Pods-simdZippyJSONBenchmark-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AE87A26B088EA3B7C3B6F95ABAE6C67 /* JSONSerialization.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3A74945EA4DB760095CAEDE0DD5921AF /* JSONSerialization.mm */; };
+		320E8E2F813310332367DE6436A73F55 /* JJLISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9A77968F424BD5EE4D6CF843C1AADB /* JJLISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3354990536807966CC1EEA48AA344F4D /* ZippyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB3420E19A7CB3772839ABA3FD307E0 /* ZippyJSON-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		426C17A9823A5E839DE488BE820FDA8A /* private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9691A2195AA45EE37ECB507FC52EDC5A /* private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		435AD6CDABB9F8B7F5A3C54C1296B71F /* ZippyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA070C793E2C3D2681A50DFAEBC0FB9 /* ZippyJSON-dummy.m */; };
+		4ACF340A1B775A1645320F4CCC5B3416 /* JSONSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 10781EA49DB7CF93CE62D3A8AB040695 /* JSONSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D64BE1CFF227F47B653246116AAE089 /* JJLISO8601DateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AD73A577E0591E1A584ED3F76833A7 /* JJLISO8601DateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C8934DAE3567217BE703D051C61903F /* JJLISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FF295257D1BA64BFE3A1B5CA8DFA6D1C /* JJLISO8601DateFormatter.m */; };
+		8025CAB7F593D90AF46C42D91C36AF3C /* JJLInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0692433BD4936A02D3586C849DCCC0DE /* JJLInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		805A6E3FC9782182D44A46B2B7D1CCB2 /* ZippyJSONCFamily-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E48D6872B21E4FE8B215E61E7DD9EB3 /* ZippyJSONCFamily-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		826ABAAD5A10A788664185444DF9CEF6 /* ZippyJSONCFamily-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E7C61CFFF8BFC35AD5C40B7AB6C27 /* ZippyJSONCFamily-dummy.m */; };
+		893D8F29DD51AF02602BDE9524589756 /* JSONSerialization_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B5097CADCBBFDAD2B6D70B232BC90718 /* JSONSerialization_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A8DB5F5BDD75BC159AD583903A2183D /* Pods-simdZippyJSONBenchmark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7520B11BD4ABB87DEE67C20AEE983D8F /* Pods-simdZippyJSONBenchmark-dummy.m */; };
+		92F1476CF85BEF446FA99772308C3105 /* localtime.c in Sources */ = {isa = PBXBuildFile; fileRef = DB40D1476CE7D190A4FCF83F43E5C2B1 /* localtime.c */; };
+		AF74A588BA19370AB0D6A9E03F6BFA46 /* Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B1C29DC1A599E50590E3C5298B336C1 /* Umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDDFCE5A25A25DE749632F0596AFA139 /* JJLISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64215526935B678DF120C8C4B67887E4 /* JJLISO8601DateFormatter-dummy.m */; };
+		E49346B0E7830C56F184E6F5D3A373ED /* tzfile__.h in Headers */ = {isa = PBXBuildFile; fileRef = 32761936EAAA568DF6E11D79070240C0 /* tzfile__.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6BD76676A3CC2B9935D8B94420AAF82 /* simdjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B5AFFF4BC1668F954396DF028D71C6 /* simdjson.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6D58D84BED61EEF52E6A7D64EA7658A /* simdjson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 74BCFDC430F3D9BE1A2E7DCF090F2F91 /* simdjson.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38632C5C34FE85D1F95F1B86406F1069 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5826E2EE2F4D892DB469614E2884BBA7;
+			remoteInfo = JJLISO8601DateFormatter;
+		};
+		472A164BABCCCFA413059C162BC1EDC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5826E2EE2F4D892DB469614E2884BBA7;
+			remoteInfo = JJLISO8601DateFormatter;
+		};
+		4F3E92C464ECA04D45A1277AA8DC0C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9D109B1B038B026F494CAB157DEFD5;
+			remoteInfo = ZippyJSONCFamily;
+		};
+		75449605988FB4AD5618D22635AE65C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A4D440B6F53E2A2EED28667A74F6778;
+			remoteInfo = ZippyJSON;
+		};
+		F710B6DE470771B8B5B2B4629D4EB86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9D109B1B038B026F494CAB157DEFD5;
+			remoteInfo = ZippyJSONCFamily;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0692433BD4936A02D3586C849DCCC0DE /* JJLInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJLInternal.h; path = Sources/JJLISO8601DateFormatter/JJLInternal.h; sourceTree = "<group>"; };
+		10781EA49DB7CF93CE62D3A8AB040695 /* JSONSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONSerialization.h; path = Sources/ZippyJSONCFamily/include/JSONSerialization.h; sourceTree = "<group>"; };
+		17C7C92EAE02A814B3497E09E7736EB4 /* Pods-simdZippyJSONBenchmark-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-simdZippyJSONBenchmark-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D4E7C61CFFF8BFC35AD5C40B7AB6C27 /* ZippyJSONCFamily-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZippyJSONCFamily-dummy.m"; sourceTree = "<group>"; };
+		233BDAE5A62343D575BDB0704FC375C3 /* ZippyJSONCFamily-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZippyJSONCFamily-prefix.pch"; sourceTree = "<group>"; };
+		248AB045CE928B85A0D0358CADB59743 /* ZippyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZippyJSON.modulemap; sourceTree = "<group>"; };
+		24AD73A577E0591E1A584ED3F76833A7 /* JJLISO8601DateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJLISO8601DateFormatter-umbrella.h"; sourceTree = "<group>"; };
+		28B5AFFF4BC1668F954396DF028D71C6 /* simdjson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = simdjson.h; path = Sources/ZippyJSONCFamily/simdjson.h; sourceTree = "<group>"; };
+		32761936EAAA568DF6E11D79070240C0 /* tzfile__.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tzfile__.h; path = Sources/JJLISO8601DateFormatter/Vendor/tzdb/tzfile__.h; sourceTree = "<group>"; };
+		33FDBDE446C618A927202FE4C1F37578 /* JJLISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJLISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		3A74945EA4DB760095CAEDE0DD5921AF /* JSONSerialization.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = JSONSerialization.mm; path = Sources/ZippyJSONCFamily/JSONSerialization.mm; sourceTree = "<group>"; };
+		3AA5F84E9F1210C4E2CDCD8CE4B1F773 /* ZippyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZippyJSON-prefix.pch"; sourceTree = "<group>"; };
+		3B3EE7483CE0C10B5B23730465A985EB /* JJLISO8601DateFormatter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJLISO8601DateFormatter.release.xcconfig; sourceTree = "<group>"; };
+		4964A2F24FB03AFB2E9F798F39ADC954 /* Pods-simdZippyJSONBenchmark-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-simdZippyJSONBenchmark-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5B2ACCBB3D2C2141B9D6A6874E36546C /* ZippyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZippyJSON.release.xcconfig; sourceTree = "<group>"; };
+		64215526935B678DF120C8C4B67887E4 /* JJLISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJLISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
+		681F110DB12E129CD33388ECE07634AF /* ZippyJSONCFamily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZippyJSONCFamily.release.xcconfig; sourceTree = "<group>"; };
+		6BD1213A59443414FF16B0EBE95F5A67 /* JJLInternal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = JJLInternal.c; path = Sources/JJLISO8601DateFormatter/JJLInternal.c; sourceTree = "<group>"; };
+		6E48D6872B21E4FE8B215E61E7DD9EB3 /* ZippyJSONCFamily-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZippyJSONCFamily-umbrella.h"; sourceTree = "<group>"; };
+		6F1F31E34ACBCACE1B9F84C83D97CC72 /* libPods-simdZippyJSONBenchmark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-simdZippyJSONBenchmark.a"; path = "libPods-simdZippyJSONBenchmark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BCFDC430F3D9BE1A2E7DCF090F2F91 /* simdjson.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = simdjson.cpp; path = Sources/ZippyJSONCFamily/simdjson.cpp; sourceTree = "<group>"; };
+		7520B11BD4ABB87DEE67C20AEE983D8F /* Pods-simdZippyJSONBenchmark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-simdZippyJSONBenchmark-dummy.m"; sourceTree = "<group>"; };
+		7DCA43B89EE3760E707A024482233C5A /* JJLISO8601DateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JJLISO8601DateFormatter.modulemap; sourceTree = "<group>"; };
+		84D389313F76ACDE9A8EBF823C017883 /* Pods-simdZippyJSONBenchmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simdZippyJSONBenchmark.release.xcconfig"; sourceTree = "<group>"; };
+		903F12CBED54FC4567AB61403ABAAFAB /* ZippyJSONCFamily.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZippyJSONCFamily.modulemap; sourceTree = "<group>"; };
+		9691A2195AA45EE37ECB507FC52EDC5A /* private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = private.h; path = Sources/JJLISO8601DateFormatter/Vendor/tzdb/private.h; sourceTree = "<group>"; };
+		9721C8D6FD74C88BC3F681E8B957AF7D /* JJLISO8601DateFormatter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJLISO8601DateFormatter.debug.xcconfig; sourceTree = "<group>"; };
+		9B1C29DC1A599E50590E3C5298B336C1 /* Umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Umbrella.h; path = Sources/ZippyJSONCFamily/include/Umbrella.h; sourceTree = "<group>"; };
+		9CB3420E19A7CB3772839ABA3FD307E0 /* ZippyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZippyJSON-umbrella.h"; sourceTree = "<group>"; };
+		9D025FF0A212FB0E201DB72C7AA191C8 /* ZippyJSONDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZippyJSONDecoder.swift; path = Sources/ZippyJSON/ZippyJSONDecoder.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA070C793E2C3D2681A50DFAEBC0FB9 /* ZippyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZippyJSON-dummy.m"; sourceTree = "<group>"; };
+		AF98194A8031D0E1457D20E200ABC7D2 /* Pods-simdZippyJSONBenchmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-simdZippyJSONBenchmark.debug.xcconfig"; sourceTree = "<group>"; };
+		B5097CADCBBFDAD2B6D70B232BC90718 /* JSONSerialization_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONSerialization_Private.h; path = Sources/ZippyJSONCFamily/include/JSONSerialization_Private.h; sourceTree = "<group>"; };
+		C07E124701D87A3E1B0411B3C840B94E /* Pods-simdZippyJSONBenchmark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-simdZippyJSONBenchmark.modulemap"; sourceTree = "<group>"; };
+		C5E0612917EBA3DE164D3682C1FEAD46 /* libZippyJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZippyJSON.a; path = libZippyJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FE4B7749006ECF55BF109B22135F0B /* ZippyJSONCFamily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZippyJSONCFamily.debug.xcconfig; sourceTree = "<group>"; };
+		DB40D1476CE7D190A4FCF83F43E5C2B1 /* localtime.c */ = {isa = PBXFileReference; includeInIndex = 1; name = localtime.c; path = Sources/JJLISO8601DateFormatter/Vendor/tzdb/localtime.c; sourceTree = "<group>"; };
+		DBA3D1C3919F1D1D0163FB720202F643 /* libJJLISO8601DateFormatter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJJLISO8601DateFormatter.a; path = libJJLISO8601DateFormatter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC68700955A5B6188FCF02348D9DE821 /* Pods-simdZippyJSONBenchmark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-simdZippyJSONBenchmark-umbrella.h"; sourceTree = "<group>"; };
+		EF2E95FCA6DB055F36ED9AF14533FA8D /* libZippyJSONCFamily.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZippyJSONCFamily.a; path = libZippyJSONCFamily.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CD225DC43ED96AEE6349CA20AAEF33 /* ZippyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZippyJSON.debug.xcconfig; sourceTree = "<group>"; };
+		FD9A77968F424BD5EE4D6CF843C1AADB /* JJLISO8601DateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JJLISO8601DateFormatter.h; path = Sources/JJLISO8601DateFormatter/include/JJLISO8601DateFormatter.h; sourceTree = "<group>"; };
+		FF295257D1BA64BFE3A1B5CA8DFA6D1C /* JJLISO8601DateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JJLISO8601DateFormatter.m; path = Sources/JJLISO8601DateFormatter/JJLISO8601DateFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C7EA4456C5EC6B89A0AA32A6E55A9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966D6CBF12571A73E622FBD6F12F8C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6C8BE2A315C2BA0B06DE3C22EF23B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9DC617EDFC9CFFF67A978B4935A8033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2996CF3B6DC424EB7DF40CFE1F7C2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A037AFFB5CCB9696D440F18747E394BB /* JJLISO8601DateFormatter */,
+				7748D96F80CD9F57A8316F278A5C513D /* ZippyJSON */,
+				AF801433F22D4290223FAA45A7ED6EE1 /* ZippyJSONCFamily */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CEC57B358AD8E5B341F46CB76C90A65 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35640A076A32C5C8CF259D7D0B5FC58 /* Pods-simdZippyJSONBenchmark */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7748D96F80CD9F57A8316F278A5C513D /* ZippyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				9D025FF0A212FB0E201DB72C7AA191C8 /* ZippyJSONDecoder.swift */,
+				CED8EE597524D779A9FE78C247FA6FC1 /* Support Files */,
+			);
+			name = ZippyJSON;
+			path = ZippyJSON;
+			sourceTree = "<group>";
+		};
+		8CC53584941129A30CC35E3CF0604701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBA3D1C3919F1D1D0163FB720202F643 /* libJJLISO8601DateFormatter.a */,
+				6F1F31E34ACBCACE1B9F84C83D97CC72 /* libPods-simdZippyJSONBenchmark.a */,
+				C5E0612917EBA3DE164D3682C1FEAD46 /* libZippyJSON.a */,
+				EF2E95FCA6DB055F36ED9AF14533FA8D /* libZippyJSONCFamily.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A037AFFB5CCB9696D440F18747E394BB /* JJLISO8601DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				6BD1213A59443414FF16B0EBE95F5A67 /* JJLInternal.c */,
+				0692433BD4936A02D3586C849DCCC0DE /* JJLInternal.h */,
+				FD9A77968F424BD5EE4D6CF843C1AADB /* JJLISO8601DateFormatter.h */,
+				FF295257D1BA64BFE3A1B5CA8DFA6D1C /* JJLISO8601DateFormatter.m */,
+				DB40D1476CE7D190A4FCF83F43E5C2B1 /* localtime.c */,
+				9691A2195AA45EE37ECB507FC52EDC5A /* private.h */,
+				32761936EAAA568DF6E11D79070240C0 /* tzfile__.h */,
+				DD7C3AE0522DC4B083FAE4466B835B7A /* Support Files */,
+			);
+			name = JJLISO8601DateFormatter;
+			path = JJLISO8601DateFormatter;
+			sourceTree = "<group>";
+		};
+		AF801433F22D4290223FAA45A7ED6EE1 /* ZippyJSONCFamily */ = {
+			isa = PBXGroup;
+			children = (
+				10781EA49DB7CF93CE62D3A8AB040695 /* JSONSerialization.h */,
+				3A74945EA4DB760095CAEDE0DD5921AF /* JSONSerialization.mm */,
+				B5097CADCBBFDAD2B6D70B232BC90718 /* JSONSerialization_Private.h */,
+				74BCFDC430F3D9BE1A2E7DCF090F2F91 /* simdjson.cpp */,
+				28B5AFFF4BC1668F954396DF028D71C6 /* simdjson.h */,
+				9B1C29DC1A599E50590E3C5298B336C1 /* Umbrella.h */,
+				D323B1C8F0A676C82BDD9809DBE494FC /* Support Files */,
+			);
+			name = ZippyJSONCFamily;
+			path = ZippyJSONCFamily;
+			sourceTree = "<group>";
+		};
+		CED8EE597524D779A9FE78C247FA6FC1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				248AB045CE928B85A0D0358CADB59743 /* ZippyJSON.modulemap */,
+				9EA070C793E2C3D2681A50DFAEBC0FB9 /* ZippyJSON-dummy.m */,
+				3AA5F84E9F1210C4E2CDCD8CE4B1F773 /* ZippyJSON-prefix.pch */,
+				9CB3420E19A7CB3772839ABA3FD307E0 /* ZippyJSON-umbrella.h */,
+				F4CD225DC43ED96AEE6349CA20AAEF33 /* ZippyJSON.debug.xcconfig */,
+				5B2ACCBB3D2C2141B9D6A6874E36546C /* ZippyJSON.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZippyJSON";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1E2996CF3B6DC424EB7DF40CFE1F7C2D /* Pods */,
+				8CC53584941129A30CC35E3CF0604701 /* Products */,
+				5CEC57B358AD8E5B341F46CB76C90A65 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D323B1C8F0A676C82BDD9809DBE494FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				903F12CBED54FC4567AB61403ABAAFAB /* ZippyJSONCFamily.modulemap */,
+				1D4E7C61CFFF8BFC35AD5C40B7AB6C27 /* ZippyJSONCFamily-dummy.m */,
+				233BDAE5A62343D575BDB0704FC375C3 /* ZippyJSONCFamily-prefix.pch */,
+				6E48D6872B21E4FE8B215E61E7DD9EB3 /* ZippyJSONCFamily-umbrella.h */,
+				D3FE4B7749006ECF55BF109B22135F0B /* ZippyJSONCFamily.debug.xcconfig */,
+				681F110DB12E129CD33388ECE07634AF /* ZippyJSONCFamily.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZippyJSONCFamily";
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7C3AE0522DC4B083FAE4466B835B7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DCA43B89EE3760E707A024482233C5A /* JJLISO8601DateFormatter.modulemap */,
+				64215526935B678DF120C8C4B67887E4 /* JJLISO8601DateFormatter-dummy.m */,
+				33FDBDE446C618A927202FE4C1F37578 /* JJLISO8601DateFormatter-prefix.pch */,
+				24AD73A577E0591E1A584ED3F76833A7 /* JJLISO8601DateFormatter-umbrella.h */,
+				9721C8D6FD74C88BC3F681E8B957AF7D /* JJLISO8601DateFormatter.debug.xcconfig */,
+				3B3EE7483CE0C10B5B23730465A985EB /* JJLISO8601DateFormatter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JJLISO8601DateFormatter";
+			sourceTree = "<group>";
+		};
+		E35640A076A32C5C8CF259D7D0B5FC58 /* Pods-simdZippyJSONBenchmark */ = {
+			isa = PBXGroup;
+			children = (
+				C07E124701D87A3E1B0411B3C840B94E /* Pods-simdZippyJSONBenchmark.modulemap */,
+				4964A2F24FB03AFB2E9F798F39ADC954 /* Pods-simdZippyJSONBenchmark-acknowledgements.markdown */,
+				17C7C92EAE02A814B3497E09E7736EB4 /* Pods-simdZippyJSONBenchmark-acknowledgements.plist */,
+				7520B11BD4ABB87DEE67C20AEE983D8F /* Pods-simdZippyJSONBenchmark-dummy.m */,
+				DC68700955A5B6188FCF02348D9DE821 /* Pods-simdZippyJSONBenchmark-umbrella.h */,
+				AF98194A8031D0E1457D20E200ABC7D2 /* Pods-simdZippyJSONBenchmark.debug.xcconfig */,
+				84D389313F76ACDE9A8EBF823C017883 /* Pods-simdZippyJSONBenchmark.release.xcconfig */,
+			);
+			name = "Pods-simdZippyJSONBenchmark";
+			path = "Target Support Files/Pods-simdZippyJSONBenchmark";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		491E2F50D01A597640FB583483217D14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8025CAB7F593D90AF46C42D91C36AF3C /* JJLInternal.h in Headers */,
+				4D64BE1CFF227F47B653246116AAE089 /* JJLISO8601DateFormatter-umbrella.h in Headers */,
+				320E8E2F813310332367DE6436A73F55 /* JJLISO8601DateFormatter.h in Headers */,
+				426C17A9823A5E839DE488BE820FDA8A /* private.h in Headers */,
+				E49346B0E7830C56F184E6F5D3A373ED /* tzfile__.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5883F6F6BB658E6C340D6A4218334C24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3354990536807966CC1EEA48AA344F4D /* ZippyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A539FDB670E3934455BB05BCD6C8531F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29D6775143DACBE37C8DDBA803100187 /* Pods-simdZippyJSONBenchmark-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8C10D0EC7248A8144BE326185F38DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACF340A1B775A1645320F4CCC5B3416 /* JSONSerialization.h in Headers */,
+				893D8F29DD51AF02602BDE9524589756 /* JSONSerialization_Private.h in Headers */,
+				E6BD76676A3CC2B9935D8B94420AAF82 /* simdjson.h in Headers */,
+				AF74A588BA19370AB0D6A9E03F6BFA46 /* Umbrella.h in Headers */,
+				805A6E3FC9782182D44A46B2B7D1CCB2 /* ZippyJSONCFamily-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F9D109B1B038B026F494CAB157DEFD5 /* ZippyJSONCFamily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D6F40D27ACAA48F7B9F347049743E9 /* Build configuration list for PBXNativeTarget "ZippyJSONCFamily" */;
+			buildPhases = (
+				EA8C10D0EC7248A8144BE326185F38DB /* Headers */,
+				C69A33CC146BF3850D5971C8D5A53B9E /* Sources */,
+				A9DC617EDFC9CFFF67A978B4935A8033 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZippyJSONCFamily;
+			productName = ZippyJSONCFamily;
+			productReference = EF2E95FCA6DB055F36ED9AF14533FA8D /* libZippyJSONCFamily.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32882696AD6896C20CDA9D0E11591E92 /* Pods-simdZippyJSONBenchmark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E821B1C0F548BF952512B1E478396C8 /* Build configuration list for PBXNativeTarget "Pods-simdZippyJSONBenchmark" */;
+			buildPhases = (
+				A539FDB670E3934455BB05BCD6C8531F /* Headers */,
+				4BA63B84A814DB2794E28230B1B8F328 /* Sources */,
+				966D6CBF12571A73E622FBD6F12F8C9D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55AD211A40189D8F8267080A09130138 /* PBXTargetDependency */,
+				87A4136EA15921216284F9246D162F6B /* PBXTargetDependency */,
+				E2840A9FF43D5559D47535DEE2EEB043 /* PBXTargetDependency */,
+			);
+			name = "Pods-simdZippyJSONBenchmark";
+			productName = "Pods-simdZippyJSONBenchmark";
+			productReference = 6F1F31E34ACBCACE1B9F84C83D97CC72 /* libPods-simdZippyJSONBenchmark.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3A4D440B6F53E2A2EED28667A74F6778 /* ZippyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAEDB77EFEFB78BB972B102707F573BC /* Build configuration list for PBXNativeTarget "ZippyJSON" */;
+			buildPhases = (
+				5883F6F6BB658E6C340D6A4218334C24 /* Headers */,
+				50D9F515F3D84E004623A9141373FC06 /* Sources */,
+				A6C8BE2A315C2BA0B06DE3C22EF23B33 /* Frameworks */,
+				380453C6D7207238AF97C0891FB5FDAE /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9E18738345E4E662AE8A2693142E5E8 /* PBXTargetDependency */,
+				9F1830B80B52C5F27D12F6713165943E /* PBXTargetDependency */,
+			);
+			name = ZippyJSON;
+			productName = ZippyJSON;
+			productReference = C5E0612917EBA3DE164D3682C1FEAD46 /* libZippyJSON.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5826E2EE2F4D892DB469614E2884BBA7 /* JJLISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D8C082D942A847B7AEE5759EFC579C /* Build configuration list for PBXNativeTarget "JJLISO8601DateFormatter" */;
+			buildPhases = (
+				491E2F50D01A597640FB583483217D14 /* Headers */,
+				E2B7CD04BB4F1A4FCA7A039761EF6BBB /* Sources */,
+				86C7EA4456C5EC6B89A0AA32A6E55A9E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJLISO8601DateFormatter;
+			productName = JJLISO8601DateFormatter;
+			productReference = DBA3D1C3919F1D1D0163FB720202F643 /* libJJLISO8601DateFormatter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8CC53584941129A30CC35E3CF0604701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5826E2EE2F4D892DB469614E2884BBA7 /* JJLISO8601DateFormatter */,
+				32882696AD6896C20CDA9D0E11591E92 /* Pods-simdZippyJSONBenchmark */,
+				3A4D440B6F53E2A2EED28667A74F6778 /* ZippyJSON */,
+				1F9D109B1B038B026F494CAB157DEFD5 /* ZippyJSONCFamily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		380453C6D7207238AF97C0891FB5FDAE /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/ZippyJSON/ZippyJSON.modulemap",
+				"${PODS_ROOT}/Headers/Public/ZippyJSON/ZippyJSON-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/ZippyJSON-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ZippyJSON/ZippyJSON.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/ZippyJSON/ZippyJSON-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BA63B84A814DB2794E28230B1B8F328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A8DB5F5BDD75BC159AD583903A2183D /* Pods-simdZippyJSONBenchmark-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D9F515F3D84E004623A9141373FC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435AD6CDABB9F8B7F5A3C54C1296B71F /* ZippyJSON-dummy.m in Sources */,
+				140DAE82672F0A5A684FDEA92CC9DE07 /* ZippyJSONDecoder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C69A33CC146BF3850D5971C8D5A53B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE87A26B088EA3B7C3B6F95ABAE6C67 /* JSONSerialization.mm in Sources */,
+				E6D58D84BED61EEF52E6A7D64EA7658A /* simdjson.cpp in Sources */,
+				826ABAAD5A10A788664185444DF9CEF6 /* ZippyJSONCFamily-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B7CD04BB4F1A4FCA7A039761EF6BBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D895BC26AADE971367D383E2EDDDEF /* JJLInternal.c in Sources */,
+				DDDFCE5A25A25DE749632F0596AFA139 /* JJLISO8601DateFormatter-dummy.m in Sources */,
+				6C8934DAE3567217BE703D051C61903F /* JJLISO8601DateFormatter.m in Sources */,
+				92F1476CF85BEF446FA99772308C3105 /* localtime.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55AD211A40189D8F8267080A09130138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJLISO8601DateFormatter;
+			target = 5826E2EE2F4D892DB469614E2884BBA7 /* JJLISO8601DateFormatter */;
+			targetProxy = 38632C5C34FE85D1F95F1B86406F1069 /* PBXContainerItemProxy */;
+		};
+		87A4136EA15921216284F9246D162F6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZippyJSON;
+			target = 3A4D440B6F53E2A2EED28667A74F6778 /* ZippyJSON */;
+			targetProxy = 75449605988FB4AD5618D22635AE65C8 /* PBXContainerItemProxy */;
+		};
+		9F1830B80B52C5F27D12F6713165943E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZippyJSONCFamily;
+			target = 1F9D109B1B038B026F494CAB157DEFD5 /* ZippyJSONCFamily */;
+			targetProxy = 4F3E92C464ECA04D45A1277AA8DC0C16 /* PBXContainerItemProxy */;
+		};
+		E2840A9FF43D5559D47535DEE2EEB043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZippyJSONCFamily;
+			target = 1F9D109B1B038B026F494CAB157DEFD5 /* ZippyJSONCFamily */;
+			targetProxy = F710B6DE470771B8B5B2B4629D4EB86D /* PBXContainerItemProxy */;
+		};
+		E9E18738345E4E662AE8A2693142E5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JJLISO8601DateFormatter;
+			target = 5826E2EE2F4D892DB469614E2884BBA7 /* JJLISO8601DateFormatter */;
+			targetProxy = 472A164BABCCCFA413059C162BC1EDC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EFCE4497F0A705300F5689FFF753FF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681F110DB12E129CD33388ECE07634AF /* ZippyJSONCFamily.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZippyJSONCFamily/ZippyJSONCFamily-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ZippyJSONCFamily/ZippyJSONCFamily.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZippyJSONCFamily;
+				PRODUCT_NAME = ZippyJSONCFamily;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37C615C68B8489C9110A869F92FC8263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2ACCBB3D2C2141B9D6A6874E36546C /* ZippyJSON.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZippyJSON/ZippyJSON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ZippyJSON/ZippyJSON.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZippyJSON;
+				PRODUCT_NAME = ZippyJSON;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BB20FAFD01C2A973A7291DC3F1B201B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FE4B7749006ECF55BF109B22135F0B /* ZippyJSONCFamily.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZippyJSONCFamily/ZippyJSONCFamily-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ZippyJSONCFamily/ZippyJSONCFamily.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZippyJSONCFamily;
+				PRODUCT_NAME = ZippyJSONCFamily;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABF064952C01B5F2F7873CD7546EAD03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3EE7483CE0C10B5B23730465A985EB /* JJLISO8601DateFormatter.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JJLISO8601DateFormatter/JJLISO8601DateFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/JJLISO8601DateFormatter/JJLISO8601DateFormatter.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JJLISO8601DateFormatter;
+				PRODUCT_NAME = JJLISO8601DateFormatter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE01CE8E75451C224F9CB71C06526219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D389313F76ACDE9A8EBF823C017883 /* Pods-simdZippyJSONBenchmark.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simdZippyJSONBenchmark/Pods-simdZippyJSONBenchmark.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCFFB58C0987DF7B4E82EB9D7E626278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CD225DC43ED96AEE6349CA20AAEF33 /* ZippyJSON.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZippyJSON/ZippyJSON-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/ZippyJSON/ZippyJSON.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZippyJSON;
+				PRODUCT_NAME = ZippyJSON;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D80518DAACE164CD0FDC0084BA6716EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9721C8D6FD74C88BC3F681E8B957AF7D /* JJLISO8601DateFormatter.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JJLISO8601DateFormatter/JJLISO8601DateFormatter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/JJLISO8601DateFormatter/JJLISO8601DateFormatter.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JJLISO8601DateFormatter;
+				PRODUCT_NAME = JJLISO8601DateFormatter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3B0365C09C8BF458D97DB417AA39E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF98194A8031D0E1457D20E200ABC7D2 /* Pods-simdZippyJSONBenchmark.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-simdZippyJSONBenchmark/Pods-simdZippyJSONBenchmark.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15D8C082D942A847B7AEE5759EFC579C /* Build configuration list for PBXNativeTarget "JJLISO8601DateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D80518DAACE164CD0FDC0084BA6716EE /* Debug */,
+				ABF064952C01B5F2F7873CD7546EAD03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D6F40D27ACAA48F7B9F347049743E9 /* Build configuration list for PBXNativeTarget "ZippyJSONCFamily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB20FAFD01C2A973A7291DC3F1B201B /* Debug */,
+				2EFCE4497F0A705300F5689FFF753FF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E821B1C0F548BF952512B1E478396C8 /* Build configuration list for PBXNativeTarget "Pods-simdZippyJSONBenchmark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B0365C09C8BF458D97DB417AA39E60 /* Debug */,
+				AE01CE8E75451C224F9CB71C06526219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAEDB77EFEFB78BB972B102707F573BC /* Build configuration list for PBXNativeTarget "ZippyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFFB58C0987DF7B4E82EB9D7E626278 /* Debug */,
+				37C615C68B8489C9110A869F92FC8263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
